@@ -33,13 +33,14 @@ Java & Spring 기반 백엔드 개발을 중심으로, Docker · Kubernetes · J
 - **AI Server**: Python 기반 처리 서버
 - **Extension**: 백준 제출 결과를 감지하고, 풀이 정보와 코드를 수집하는 Chrome Extension
 
-### [baptimessafy](https://github.com/C4T4767/baptimessafy)
-멀티캠퍼스 식단 정보를 자동으로 수집/가공하는 자동화 프로젝트입니다.
+### [Bap Time with SSAFY](https://github.com/C4T4767/baptimessafy)
+SSAFY 멀티캠퍼스 10층/20층 식단 정보를 자동으로 수집·가공해 Chrome Extension에 제공하는 운영형 프로젝트입니다.
 
-- **Welstory API**를 활용한 20층 식단 자동 수집
-- **Google Gemini API**를 활용한 10층 식단 PNG 파싱
-- **GitHub Actions** 기반 정기 실행 및 결과 자동 커밋
-- JSON 데이터 적재와 Chrome Extension 연동까지 포함한 실사용형 프로젝트
+- **20층 식단 자동화**: Welstory API 기반으로 일일 식단 데이터를 수집하고 JSON으로 저장
+- **10층 식단 자동화**: Mattermost에 업로드된 주간 식단표 PNG를 수집한 뒤, Google Gemini API로 파싱해 구조화
+- **Workflow Automation**: GitHub Actions 기반 정기 실행으로 데이터 생성, 커밋, 반영까지 자동화
+- **Data Standardization**: 서로 다른 입력 소스를 공통 JSON 스키마로 정규화해 Extension에서 바로 사용할 수 있도록 설계
+- **Production Use**: 실제 Chrome Extension **Bap Time with SSAFY**에 연동되어 운영 중이며, 작성 시점 기준 **사용자 461명 / 평점 5.0**
 
 ## Experience
 
