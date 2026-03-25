@@ -24,7 +24,7 @@ Java & Spring 기반 백엔드 개발을 중심으로, Docker · Kubernetes · J
 
 ## Featured Projects
 
-### [Peekle](https://github.com/Peek-a-chu/Peekle)
+### [힐끔힐끔코딩](https://github.com/Peek-a-chu/Peekle)
 문제 풀이, 스터디 협업, 실시간 소통, AI 추천, Chrome Extension 자동 연동을 하나의 흐름으로 연결한 **실시간 코딩 스터디 플랫폼**입니다.
 
 - **수상 이력**: SSAFY 공통 프로젝트에서 **반 1위 팀**으로 선정되어 **프로젝트 우수상** 수상 (`삼성전자주식회사`, 2026.02.09)
