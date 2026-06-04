@@ -24,7 +24,31 @@ Java & Spring 기반 백엔드 개발을 중심으로, Docker · Kubernetes · J
 
 ## Featured Projects
 
-### [힐끔힐끔코딩](https://github.com/Peek-a-chu/Peekle)
+### [지구본 (ZIGU-BON)](https://github.com/suspicious-people/zigubon)
+전 세계 최신 이슈를 3D 지구본 위에서 탐색하고, 국가별 이슈·AI 요약·개인화 추천·챗봇/음성 명령을 하나의 흐름으로 연결한 **AI 기반 글로벌 이슈 시각화 서비스**입니다.
+
+- **수상 이력**: SSAFY 공통 프로젝트에서 **반 2위 팀**으로 선정되어 **프로젝트 우수상** 수상 (`삼성전자주식회사`, 2026.05.21)
+- `frontend / backend / ai-service / infra`로 구성된 **monorepo 프로젝트**
+- **Frontend**: Next.js 16, React 19, TypeScript, Three.js 기반 3D 지구본 UI
+- **Backend**: Java 21, Spring Boot 3.5, JPA, OAuth2/JWT, PostgreSQL / Redis 연동
+- **AI Server**: FastAPI 기반 뉴스 수집, 이슈 클러스터링, 요약, Q&A, 의도 분석 처리
+- **Data Pipeline**: 국가별 뉴스 수집, 임베딩, 클러스터링, 이슈 생성 흐름 설계
+- **Infra / Automation**: Docker, Nginx, GitLab CI/CD 기반 배포 및 운영 환경 구성
+
+### [오트밀 (Auto-Trading-for-Meals)](https://github.com/ant-rescue-team/Auto-Trading-for-Meals)
+나만의 투자 전략을 만들고, 백테스트로 검증한 뒤, 한국투자증권 API 기반 실거래까지 연결하는 **한국 주식 자동매매 플랫폼**입니다.
+
+- **수상 이력**: SSAFY 공통 프로젝트에서 **반 2위 팀**으로 선정되어 **프로젝트 우수상** 수상 (`삼성전자주식회사`, 2026.03.30)
+- `frontend / backend / infra / seed scripts`로 구성된 **monorepo 프로젝트**
+- **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS, Recharts 기반 대시보드·차트 UI
+- **Backend**: Java 21, Spring Boot 3.4, JPA, QueryDSL, Spring Security, OAuth2/JWT 기반 API 서버
+- **Trading**: 한국투자증권 API 연동, 자동매매 세션 시작/중지/재개, 주문 재시도 및 체결 활동 로그 처리
+- **Backtesting**: 전략 조건 기반 백테스트 요청, SSE 기반 진행률 스트리밍, 수익률·이벤트·종목 인사이트 조회
+- **Market Data**: KOSPI/KOSDAQ 종목 데이터, 실시간 시세, 캔들 차트, 보조지표, 재무제표/투자지표 제공
+- **AI / Automation**: Gemini 기반 전략 추천·챗봇, DART/pykrx 기반 종목·재무 데이터 시드 자동화
+- **Infra / CI/CD**: Docker, PostgreSQL, Redis, Nginx, Jenkins Pipeline 기반 빌드·배포 환경 구성
+
+### [힐끔힐끔코딩(Peekle)](https://github.com/Peek-a-chu/Peekle)
 문제 풀이, 스터디 협업, 실시간 소통, AI 추천, Chrome Extension 자동 연동을 하나의 흐름으로 연결한 **실시간 코딩 스터디 플랫폼**입니다.
 
 - **수상 이력**: SSAFY 공통 프로젝트에서 **반 1위 팀**으로 선정되어 **프로젝트 우수상** 수상 (`삼성전자주식회사`, 2026.02.09)
@@ -35,6 +59,8 @@ Java & Spring 기반 백엔드 개발을 중심으로, Docker · Kubernetes · J
 - **Realtime**: WebSocket, LiveKit 기반 실시간 채팅·코드 공유·협업 기능 구현
 - **AI Server**: Python 기반 문제 추천 및 임베딩 처리
 - **Extension**: 백준 제출 결과와 풀이 코드를 자동 수집하는 Chrome Extension
+
+
 
 ### [Bap Time with SSAFY](https://github.com/C4T4767/baptimessafy)
 SSAFY 멀티캠퍼스 10층/20층 식단 정보를 자동으로 수집·가공해 Chrome Extension에 제공하는 **운영형 자동화 프로젝트**입니다.
