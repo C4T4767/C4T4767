@@ -39,7 +39,7 @@ Java & Spring 기반 백엔드 개발을 중심으로, Docker · Kubernetes · J
 나만의 투자 전략을 만들고, 백테스트로 검증한 뒤, 한국투자증권 API 기반 실거래까지 연결하는 **한국 주식 자동매매 플랫폼**입니다.
 
 - **수상 이력**: SSAFY 공통 프로젝트에서 **반 2위 팀**으로 선정되어 **프로젝트 우수상** 수상 (`삼성전자주식회사`, 2026.03.30)
-- `frontend / backend / infra / seed scripts`로 구성된 **monorepo 프로젝트**
+- `frontend / backend`로 구성된 **monorepo 프로젝트**
 - **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS, Recharts 기반 대시보드·차트 UI
 - **Backend**: Java 21, Spring Boot 3.4, JPA, QueryDSL, Spring Security, OAuth2/JWT 기반 API 서버
 - **Trading**: 한국투자증권 API 연동, 자동매매 세션 시작/중지/재개, 주문 재시도 및 체결 활동 로그 처리
